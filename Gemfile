@@ -43,3 +43,9 @@ end
 # Uncomment the following line if you're running Rails
 # on a native Windows system:
 # gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "dockerfile-rails", ">= 1.5", :group => :development
+
+gem "sentry-ruby", "~> 5.12"
+
+gem "sentry-rails", "~> 5.12"
