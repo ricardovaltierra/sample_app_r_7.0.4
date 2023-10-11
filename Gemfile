@@ -14,9 +14,9 @@ gem "stimulus-rails",  "1.0.4"
 gem "jbuilder",        "2.11.5"
 gem "puma",            "5.6.4"
 gem "bootsnap",        "1.12.0", require: false
+gem "sqlite3", "1.4.2"
 
 group :development, :test do
-  gem "sqlite3", "1.4.2"
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
 
@@ -37,7 +37,6 @@ end
 
 group :production do
   # gem "pg", "1.3.5"
-  gem 'sqlite3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem.
